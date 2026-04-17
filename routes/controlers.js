@@ -29,7 +29,7 @@ const postUser = async (req, res) => {
       [login, hashedPassword]
     );
 
-    console.log("✅ User inserted with ID:", result.insertId);
+    console.log(" User inserted with ID:", result.insertId);
 
     const user = {
       id: result.insertId,
