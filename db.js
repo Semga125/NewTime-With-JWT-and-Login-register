@@ -13,9 +13,9 @@ const db = mysql.createPool({
 async function testConnection() {
   try {
     await db.query("SELECT 1");
-    console.log("✅ Підключення до БД успішне");
+    console.log(" Підключення до БД успішне");
   } catch (err) {
-    console.error("❌ Помилка підключення до БД:", err.message);
+    console.error(" Помилка підключення до БД:", err.message);
   }
 }
 
