@@ -18,7 +18,7 @@ const jwt = require("jsonwebtoken")
   }
 const postUser = async (req, res) => {
   try {
-    console.log("📩 postUser called with body:", req.body);
+    console.log(" postUser called with body:", req.body);
 
     const { login, password } = req.body;
 
